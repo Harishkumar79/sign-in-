@@ -1,0 +1,43 @@
+<DOCTYPE.html>
+<html>
+ <head>
+  <title>mypage</title>
+   <style>
+ form{
+	      background-color:green;
+		  width:400px;
+		  height:350px;
+		  margin:130px;
+		  border:5px solid black;
+	      }
+#bottom{
+         text-align:center;
+		 position:relative;
+		 top:20px;
+        }		  
+ </style>
+ </head>
+ <body style="background-color:#1167a8;">
+ <form>
+ <h1 align="center">Sign In</h1>
+ <div align="center">
+  <div>
+  <p>Username  <input type="text" placeholder="enter name"></p>
+   <p>Email  <input type="email" pattern="[^ @]*@[^ @]*" placeholder="email address" title="eg. abcdefg@gamil.com"></p>
+   <p>Password <input type="Password" placeholder="must 8 charecter" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required></p>
+   <p>Mobile No.  <input type=" pattern="[0-9]{3}-[0-9]{3}-[0-9][4}" required placeholder="contact no." title="enter 10 digit number"></p>
+   <p>City
+   <select>
+    <option>jaipur</option>
+	<option>udiapur</option>
+	<option>sirohi</option>
+	<option>ajmer</option>
+	</select>
+   </p>
+  <p>male<input type="radio" name="gender" >&nbsp
+     female<input type="radio" name="gender"></p>
+    <p><input type="submit"></p>
+ </form>
+ <h2 id="bottom">Thanks for visiting</h2>
+ </body>
+ </html>
